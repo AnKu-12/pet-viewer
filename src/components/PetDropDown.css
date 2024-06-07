@@ -1,0 +1,23 @@
+.PetDropdown {
+    margin: 20px 0;
+    font-size : 7em;
+      color: #333; 
+  
+  }
+  
+  .PetDropdown label {
+    margin-right: 10px;
+    color: #333;
+  }
+  
+
+  .PetViewer {
+    color: #333; 
+  }
+
+  .PetDropdown select {
+    padding: 5px;
+    font-size: 7em;
+  }
+
+  

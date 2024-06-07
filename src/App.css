@@ -14,18 +14,21 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-image: url('background.jpg'); 
+  background-size: cover;
+  background-position: center;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  font-size: calc(13px + 2vmin);
+  
+  color: rgb(78, 46, 46);
 }
 
 .App-link {
-  color: #61dafb;
+  color: #5ec0db;
 }
 
 @keyframes App-logo-spin {
@@ -36,3 +39,20 @@
     transform: rotate(360deg);
   }
 }
+
+
+@keyframes fadeInSlideIn {
+  0% {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.greeting {
+  animation: fadeInSlideIn 2s ease-in-out;
+}
+
